@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SampleSuite">
+
+    <!-- Browser parameter -->
+    <parameter name="browser" value="chrome"/>
+ 
+    <!-- Run three different suite XML files -->
+    <suite-files>
+		
+  <suite-file path="SampleSuite.xml"/>
+ 
+    </suite-files>
+
+</suite>

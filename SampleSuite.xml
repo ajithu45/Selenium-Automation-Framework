@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SampleSuite">
+ <listeners>
+       <listener class-name="iRetry.UnifiedExtentTestNGListener"/>
+        <listener class-name="iRetry.RetryListener"/>
+    </listeners>
+    <test name="TestRun">
+      <!--  <parameter name="browser" value="headed-chrome"/>-->
+         <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="TestProject.TestRun"/>
+        </classes>
+    </test>
+</suite>
